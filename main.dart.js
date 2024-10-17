@@ -84051,9 +84051,9 @@ A.vw.prototype={
 zc(a,b){return this.akq(a,b)},
 akq(a,b){var s=0,r=A.O(t.a),q,p,o,n,m
 var $async$zc=A.P(function(c,d){if(c===1)return A.L(d,r)
-while(true)switch(s){case 0:p=A.fv("https://bpk-webapp-prd1.bdms.co.th/ApiPhamacySmartLabel/PatientVerify")
+while(true)switch(s){case 0:p=A.fv("https://localhost:7246/api/Patient/verify")
 o=t.N
-n=A.az(["Content-Type","application/json;charset=utf-8"],o,o)
+n=A.az(["Content-Type","application/json"],o,o)
 s=3
 return A.Q(A.aqo(p,B.bO.yp(A.az(["emplid",a,"pass",b],o,o),null),n),$async$zc)
 case 3:m=d
@@ -84066,9 +84066,9 @@ return A.N($async$zc,r)},
 ys(a){return this.ahw(a)},
 ahw(a){var s=0,r=A.O(t.a),q,p,o,n,m
 var $async$ys=A.P(function(b,c){if(b===1)return A.L(c,r)
-while(true)switch(s){case 0:p=A.fv("https://bpk-webapp-prd1.bdms.co.th/ApiPhamacySmartLabel/PatientDetails")
+while(true)switch(s){case 0:p=A.fv("https://localhost:7246/api/Patient/details")
 o=t.N
-n=A.az(["Content-Type","application/json;charset=utf-8"],o,o)
+n=A.az(["Content-Type","application/json"],o,o)
 s=3
 return A.Q(A.aqo(p,B.bO.yp(A.az(["emplid",a,"pass",""],o,o),null),n),$async$ys)
 case 3:m=c
@@ -84080,7 +84080,7 @@ return A.N($async$ys,r)},
 yt(a){return this.ahx(a)},
 ahx(a){var s=0,r=A.O(t.a),q,p,o,n,m
 var $async$yt=A.P(function(b,c){if(b===1)return A.L(c,r)
-while(true)switch(s){case 0:p=A.fv("https://bpk-webapp-prd1.bdms.co.th/ApiPhamacySmartLabel/PatientDetailsByHn")
+while(true)switch(s){case 0:p=A.fv("https://localhost:7246/api/Patient/detailsbyhn")
 o=t.N
 n=A.az(["Content-Type","application/json;charset=utf-8"],o,o)
 s=3
